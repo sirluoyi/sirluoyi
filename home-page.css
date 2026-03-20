@@ -1,6 +1,6 @@
 body {
 	background-color:  rgba(244, 227, 210, 0.352);
-	margin: 0;
+	margin-bottom: 1000px;
 }
 
 .hero-section {
@@ -67,7 +67,6 @@ body {
 .tagline1 {
 	font-family: serif;
 	font-size: 60px;
-	font-weight: 0;
 	justify-content: center;
 	text-align: center;
 	padding-left: 120px;
@@ -76,7 +75,7 @@ body {
 }
 
 .tagline2 {
-	font-family: inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 40px;
 	justify-content: center;
 	text-align: center;
@@ -101,7 +100,7 @@ body {
 	text-decoration: none;
 }
 
-/* CATEGORIES */
+/* TOPIC-SECTION */
 
 .topics-div {
 	display: flex;
@@ -116,20 +115,33 @@ body {
 	margin-bottom: 20px;
 }
 
-.subtopic-div {
+.subtopic-div-1 {
 	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.subtopic-div-2 {
+	display: flex;
+	justify-content: space-around;
 }
 
 .topic-box {
 	font-size: 30px;
 	color: rgba(106, 19, 19, 0.697);
 	text-align: center;
-	display: inline-flex;
+	display: flex;
+	flex-direction: row;
 	margin-left: 10px;
 	margin-right: 10px;
 	background-color: beige;
 	padding: 10px;
-	border-width: 4px;
-	border-color: brown;
+	border: 2px solid brown;
+}
+
+.philosophy-icon {
+	width: 30px;
+	height: auto;
+	object-fit: fill;
 }
 
