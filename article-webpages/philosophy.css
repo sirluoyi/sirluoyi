@@ -1,0 +1,44 @@
+body {
+	background-color: rgba(244, 227, 210, 0.352);
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    margin-top: 15px;
+    font-size: 27px;
+}
+
+.header-c1 {
+    display: flex;
+    color: darkred;
+    font-weight: bold;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-c2 {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+
+.header-c3 {
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.header-c31 {
+    width: 100px;
+    height: 4px;
+    background-color: darkred;
+}
+
+.header-line-bottom {
+    height: 2px;
+    background-color: rgba(139, 0, 0, 0.315);
+    margin-top: 17px;
+}
+
