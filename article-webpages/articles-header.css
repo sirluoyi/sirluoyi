@@ -6,7 +6,7 @@ body {
 .header {
     display: flex;
     margin-top: 15px;
-    font-size: 27px;
+    font-size: 35px;
 }
 
 .header-c1 {
@@ -20,13 +20,14 @@ body {
 .header-c2 {
     display: flex;
     flex: 2;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
+    color: rgb(65, 65, 65);
 }
 
 .header-c3 {
     display: flex;
     flex: 1;
-    margin-left: 50px;
     align-items: center;
 }
 
@@ -36,9 +37,14 @@ body {
     background-color: darkred;
 }
 
+.header-c32 {
+    width: 80px;
+    height: 4px;
+    background-color: rgba(139, 0, 0, 0.342);
+}
+
 .header-line-bottom {
     height: 2px;
     background-color: rgba(139, 0, 0, 0.315);
     margin-top: 17px;
 }
-
