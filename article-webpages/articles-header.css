@@ -15,6 +15,7 @@ body {
     font-weight: bold;
     flex: 1;
     justify-content: center;
+    text-decoration: none;
 }
 
 .header-c2 {
@@ -46,5 +47,6 @@ body {
 .header-line-bottom {
     height: 2px;
     background-color: rgba(139, 0, 0, 0.315);
-    margin-top: 17px;
+    margin-top: 17px; 
+    margin-bottom: 30px;
 }
