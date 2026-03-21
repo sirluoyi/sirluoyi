@@ -64,11 +64,14 @@ body {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	white-space: nowrap;
 	text-align: center;
 	font-family: 'times new roman';
 	font-size: 110px;
 	color: rgba(141, 16, 16, 0.978);
 	font-weight: 550;
+	margin: 0;
+	padding: 0;
 }
 
 /* TAGLINES */
