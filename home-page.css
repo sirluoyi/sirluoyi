@@ -47,18 +47,6 @@ body {
 
 /* SIR LUOYI */
 
-/* .sirluoyi {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	text-align: center;
-	font-family: 'alex brush';
-	font-size: 100px;
-	color: rgba(141, 16, 16, 0.978);
-	font-weight:600;
-	
-} */
-
 .sirluoyi {
 	position: absolute;
 	left: 50%;
@@ -75,28 +63,30 @@ body {
 
 /* Navigation bar */
 
+.js-navbar-button {
+	margin-left: 60px;
+	margin-top: 28px;
+	background: transparent;
+	border: 0;
+}
+
 .navbar {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	width: 400px;
-	height: 700px;
-	top: 170px;
-	border: 8px solid rgba(77, 21, 21, 0.892);
+	left: 0px;
+	bottom: 0px;
+	width: 70vw;
+	top: 190px;
+	border: 6px solid rgba(248, 245, 245, 0.892);
 	background-color: rgb(244, 227, 210);
-	opacity: 0;
+	transform: translateX(-110%);
+	transition: transform 0.2s ease-in-out;
+	box-shadow: 5px 10px 25px 10px rgba(0, 0, 0, 0.3);
 }
 
-.navbar2 {
-	display: flex;
-	flex-direction: column;
-	position: fixed;
-	width: 400px;
-	height: 700px;
-	top: 170px;
-	border: 8px solid rgba(77, 21, 21, 0.892);
-	background-color: rgb(244, 227, 210);
-	opacity: 1;
+.navbar.slide {
+	transform: translateX(0);
 }
 
 
