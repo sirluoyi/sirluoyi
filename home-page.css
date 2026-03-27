@@ -359,7 +359,7 @@ body {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 50vw;
+	width: 65vw;
 	flex-direction: column;
 	color: rgb(47, 10, 10); 
 }
@@ -378,7 +378,7 @@ body {
 }
 
 .nav-sirluoyi-text {
-	font-size: 60px;
+	font-size: 90px;
 	font-weight: bold;
 	color: brown;
 	margin-left: 30px;
@@ -387,7 +387,7 @@ body {
 .nav-tagline-text {
 	padding-top: 5px;
 	margin-left: 30px;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 .nav-button {
@@ -399,14 +399,14 @@ body {
 	align-items: center;
 	margin: 25px 30px;
 	gap: 10px;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .nav-box {
 	display: flex;
 	margin: 10px 30px;
 	background-color: #e8d6b889;
-	padding: 20px;
+	padding: 40px;
 	border-radius: 5px;
 	box-shadow: 0 2px 6px rgba(32, 32, 32, 0.1);
 	gap: 20px;
@@ -415,7 +415,7 @@ body {
 .nav-box-title {
 	width: 20px;
 	height: 20px;
-	font-size: 30px;
+	font-size: 40px;
 
 }
 
