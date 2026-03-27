@@ -405,3 +405,30 @@ body {
 	opacity: 1;
 	pointer-events: auto;
 }
+
+/* Ticker Text */
+
+.ticker {
+	width: 100%;
+	height: 90px;
+	overflow: hidden;
+	background: #b05800f0;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.ticker-text {
+	font-size: 60px;
+	white-space: nowrap;
+	animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
