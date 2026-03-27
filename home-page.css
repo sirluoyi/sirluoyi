@@ -276,7 +276,7 @@ body {
 	transform: translateX(-110%);
 	transition: transform 0.25s ease-out;
 	box-shadow: 0 15px 30px rgba(32, 32, 32, 0.3);
-	border-radius: 15px;
+	border-radius: 35px;
 	z-index: 200;
 }
 
@@ -397,9 +397,11 @@ body {
 	z-index: 100;
 	opacity: 0;
 	transition: opacity 0.3s ease-out;
+	pointer-events: none;
 }
 
 .overlay.slide {
 	background-color: rgba(0, 0, 0, 0.55);
 	opacity: 1;
+	pointer-events: auto;
 }
