@@ -348,3 +348,78 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
+
+/* Navbar Toggle 2 */
+
+.navbar-parent {
+	background-image: url(image/navbar-bg-image.png);
+	position: fixed;
+	display: flex;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 50vw;
+	flex-direction: column;
+	color: rgb(47, 10, 10); 
+}
+
+.nav-child1 {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: space-between;
+	margin: 30px; 
+	margin-bottom: 60px;
+}
+
+.nav-sirluoyi {
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-sirluoyi-text {
+	font-size: 60px;
+	font-weight: bold;
+	color: brown;
+	margin-left: 30px;
+}
+
+.nav-tagline-text {
+	padding-top: 5px;
+	margin-left: 30px;
+	font-size: 25px;
+}
+
+.nav-button {
+	font-size: 50px;
+}
+
+.section-divider {
+  display: flex;
+	align-items: center;
+	margin: 25px 30px;
+	gap: 10px;
+	font-size: 30px;
+}
+
+.nav-box {
+	display: flex;
+	margin: 10px 30px;
+	background-color: #e8d6b889;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(32, 32, 32, 0.1);
+	gap: 20px;
+}
+
+.nav-box-title {
+	width: 20px;
+	height: 20px;
+	font-size: 30px;
+
+}
+
+.nav-box svg {
+	width: 40px;
+	height: 40px;
+}
