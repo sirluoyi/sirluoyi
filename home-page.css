@@ -1,6 +1,7 @@
 body {
 	background-color:  rgba(244, 227, 210, 0.352);
-	margin-bottom: 1000px;
+	margin-bottom: 0px;
+	position: relative;
 }
 
 .hero-section {
@@ -300,7 +301,7 @@ body {
 }
 
 .nav-sirluoyi-text {
-	font-size: 80px;
+	font-size: 95px;
 	font-weight: bold;
 	color: brown;
 	margin-left: 35px;
@@ -327,6 +328,7 @@ body {
 
 .navigation-text {
 	padding-left: 23px;
+	font-weight: bold;
 }
 
 .nav-box {
@@ -385,6 +387,16 @@ body {
 	transform: translateY(-14px) rotate(-45deg);
 }
 
+.line8 {
+	width: 100%;
+	height: 4px;
+	background-color: #33333356;
+	border-radius: 1px;
+	align-items: center;
+	flex: 1;
+	margin-left: 14px;
+}
+
 /* Overlay */
 
 .overlay {
@@ -406,7 +418,7 @@ body {
 	pointer-events: auto;
 }
 
-/* Ticker Text */
+/* Sanskrit Shloka */
 
 .ticker {
 	width: 100%;
@@ -431,4 +443,48 @@ body {
 	to {
 		transform: translateX(-100%);
 	}
+}
+
+.footer {
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	width: 100%;
+	background: #ebb04127;
+	margin-top: 500px;
+	padding: 12px;
+	box-shadow: 10px -15px 22px rgba(0, 0, 0, 0.15);
+	
+}
+
+.footer-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 65px;
+	margin-top: 55px;
+
+}
+
+.footer-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-box-header {
+	font-size: 30px;
+	margin-bottom: 17px;
+  font-weight: bold;
+}
+
+.fbh-child {
+	font-size: 26px;
+	margin-bottom: 8px;
+}
+
+.footer-para {
+	font-size: 25px; 
+	text-align: center; 
+	font-weight: bold;
 }
