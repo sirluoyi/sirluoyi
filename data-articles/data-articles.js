@@ -6,8 +6,8 @@ export const dataArray = [
 			heading: "9 Stoic Practices That Will Help You Thrive In The Madness Of Modernity",
 			headingThumb: "9 Stoic Practices That Will Help You Thrive In The Madness Of Modernity", 
 			subHeading: "Wisdom",
-			image: "stoic-article.webp",
-			imageThumb: "featured-post-1.jpg",
+			image: "philosophy-1.webp",
+			imageThumb: "philosophy-12.jpg",
 			author: "John Spencer &middot March 21, 2026",
 			articleThumb: "Much of what happens in life is not within our control. The Stoics recognised this undeniable truth, and focused instead on what they could do. Born a slave, it would seem that Epictetus had no reason to believe he could control anything. He was permanently crippled from a broken leg given to him by his master. Epictetus would live and die in poverty...",
 
@@ -102,8 +102,8 @@ export const dataArray = [
 			heading: "Why the paradoxes of infinity still puzzle us today",
 			headingThumb: "Why the paradoxes of infinity still puzzle us today",
 			subHeading: "by Alan Lightman",
-			image: "infinity-article2.webp",
-			imageThumb: "featured-post-2.jpg",
+			image: "mathematics-1.webp",
+			imageThumb: "mathematics-12.jpg",
 			author: "Alan Lightman &middot Sepctember 18, 2021",
 			articleThumb: "In Jorge Luis Borges story The Book of Sand, a mysterious stranger knocks on the door of the narrator and offers to sell him a Bible he came by in a small village in India. The book shows the wear of many hands. The stranger says that the illiterate peasant who gave him the book called it the Book of Sand, “because neither sand nor this book has a beginning or an end.”...",
 
@@ -120,7 +120,22 @@ export const dataArray = [
 			<p>Beyond the religious sphere of the immaterial world, physicists believe that there may be infinite things in the material world as well. But this belief can never be proven. You can’t get there from here. Most of us have our first glimmerings of infinity as children, when we look up at the night sky for the first time. Or when we go to sea, out of sight of land, and gaze upon the ocean extending on and on until it meets the horizon. But these are only glimmerings, like counting to a few thousand in Aristotle’s potential infinity. We’re overwhelmed. But we haven’t come close.</p>
 			<p>The concept of infinity remains a controversial and paradoxical topic today, galvanizing international conferences and heated scholarly disputes. Can physical forces ever be infinite in strength? Can physical space extend beyond galaxy after galaxy without limit? Is there an infinity between the infinity of the whole numbers and the infinity of all numbers? In May 2013, a panel of scientists and mathematicians gathered in New York City to discuss the profound conundrums surrounding infinity. William Hugh Woodin, a mathematician at the University of California, Berkeley, put it this way: “It’s kind of like mathematics lives on a stable island—we’ve built a solid foundation. Then, there’s the wild land out there. That’s infinity.”</p>
 			`
+	},
+
+	{
+			id: "physics-1",
+			category: "Physics",
+			heading: "Neutrinos Make a Break in the ice",
+			headingThumb: "Neutrinos Make a Break in the ice",
+			subHeading: "by Michael Schirber",
+			image: "physics-1.webp",
+			imageThumb: "physics-12.webp",
+			author: "Michael Schirber &middot April 14, 2023",
+			articleThumb: "The spectrum of cosmic neutrinos can unmask the types of astrophysical sources that produce these and other high-energy particles. The IceCube Neutrino Observatory, whose detectors lie buried in Antarctic ice, has been measuring cosmic neutrinos since 2010. Early data releases suggested that the neutrino spectrum is a single falling power law, which is consistent with simple models relating cosmic neutrinos to cosmic rays.",
+			article: ``
 	}
+
+
 
 
 

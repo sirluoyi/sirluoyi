@@ -20,9 +20,13 @@ let html = ``;
     </a>
 		`;
 
+    
+
 		html += itemHtml;
 
 	});
 
 	body.innerHTML = html;
+
+  console.log(dataArray[1].imageThumb);
 
