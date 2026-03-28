@@ -2,6 +2,8 @@ import { dataArray } from "./data-articles/data-articles.js";
 
 
 
+// NAVIGATION BAR TOGGLE 
+
 document.body.querySelector('.js-navbar-button').addEventListener('click', () => {
   document.body.querySelector('.js-navbar-parent').classList.toggle('slide');
 })
@@ -18,14 +20,12 @@ document.body.querySelector('.js-navbar-button').addEventListener('click', () =>
 document.body.querySelector('.navbar-toggle-button').addEventListener('click', () => {
   document.body.querySelector('.overlay').classList.toggle('slide');
 })
+
+// FEATURED ARTICLES HTML GENERATIONS
 
 const featuredArticlesBody = document.body.querySelector('.js-featured-article-box');
 
-let total = 0;
-dataArray.forEach(item => {
-  total++;
-});
-
+let total = dataArray.length;
 let html = ``;
 
 for (let i = total-1; i > total - 4; i--)
@@ -42,12 +42,8 @@ for (let i = total-1; i > total - 4; i--)
 			<div class="article-footer">${item.author}</div>
 		</div>
 	</a>`
-  console.log(partHtml);
   html += partHtml;
-  console.log(html);
 };
-
-
 
 featuredArticlesBody.innerHTML = html;
 
