@@ -129,7 +129,7 @@ export const dataArray = [
 			headingThumb: "Neutrinos Make a Break in the ice",
 			subHeading: "by Michael Schirber",
 			image: "physics-1.webp",
-			imageThumb: "physics-12.webp",
+			imageThumb: "physics-12.jpg",
 			author: "Michael Schirber &middot April 14, 2023",
 			articleThumb: "The spectrum of cosmic neutrinos can unmask the types of astrophysical sources that produce these and other high-energy particles. The IceCube Neutrino Observatory, whose detectors lie buried in Antarctic ice, has been measuring cosmic neutrinos since 2010. Early data releases suggested that the neutrino spectrum is a single falling power law, which is consistent with simple models relating cosmic neutrinos to cosmic rays.",
 			article: ``
@@ -142,7 +142,7 @@ export const dataArray = [
 			headingThumb: "Quantum Cryptography Pioneers Win Turing Award",
 			subheading: "by Ben Brubaker",
 			image: "computer-science-1.webp",
-			imageThumb: "computer-science-1.webp",
+			imageThumb: "computer-science-12.jpg",
 			author: "Ben Brucker &middot Jan 27, 2026",
 			articleThumb: "Bennett’s journey was more circuitous. He was born in New York City in 1943, went to college intending to study biochemistry, and wound up doing graduate research at Harvard University at the intersection of chemistry and physics. All the while, he was growing increasingly interested in finding connections between physics and computation, at a time when the two subjects were considered largely unrelated.",
 			article: `
