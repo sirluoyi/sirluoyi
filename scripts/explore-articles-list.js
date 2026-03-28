@@ -7,7 +7,7 @@ let html = ``;
 	dataArray.forEach(item => {
 		
 		let itemHtml = `
-			<a href="philosophy.html" class="article1">
+			<a href="article.html?id=${item.id}" class="article1">
       <div class="article1-box1">
         <img src="../image/${item.imageThumb}">
       </div>
@@ -20,13 +20,12 @@ let html = ``;
     </a>
 		`;
 
-    
-
 		html += itemHtml;
 
 	});
 
 	body.innerHTML = html;
 
-  console.log(dataArray[1].imageThumb);
+  console.log(html);
+
 
