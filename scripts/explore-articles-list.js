@@ -4,7 +4,7 @@ const body = document.body.querySelector('.js-data-import');
 
 let html = ``;
 
-	dataArray.forEach(item => {
+	dataArray.slice().reverse().forEach(item => {
 		
 		let itemHtml = `
 			<a href="article.html?id=${item.id}" class="article1">

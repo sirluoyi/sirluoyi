@@ -55,7 +55,7 @@ featuredArticlesBody.innerHTML = html;
 let categoryBoxHtml = ``;
 categoryBoxArray.forEach(item => {
 const partHtml = `
-			<a href="article-webpages/article.html" class="topic-box">
+			<a href="article-webpages/explore-articles-list.html" class="topic-box">
 				<div class="icon">
 					<img src="image/${item.image}">
 				</div>
