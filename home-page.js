@@ -1,4 +1,5 @@
 import { dataArray } from "./data-articles/data-articles.js";
+import { categoryBoxArray } from "./data-articles/data-category-box.js";
 
 
 
@@ -48,3 +49,22 @@ for (let i = total-1; i > total - 4; i--)
 featuredArticlesBody.innerHTML = html;
 
 
+// CATEGORY BOX GENERATION
+
+
+let categoryBoxHtml = ``;
+categoryBoxArray.forEach(item => {
+const partHtml = `
+			<a href="article-webpages/article.html" class="topic-box">
+				<div class="icon">
+					<img src="image/${item.image}">
+				</div>
+				<div class="text-card">${item.title}</div>
+			</a>
+`
+	categoryBoxHtml += partHtml;
+});
+
+const categoryBoxBody = document.body.querySelector('.js-subtopic-div-1');
+console.log(categoryBoxBody);
+categoryBoxBody.innerHTML = categoryBoxHtml;
