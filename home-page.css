@@ -63,7 +63,7 @@ body {
 }
 
 .hamburger-button-top.slide {
-	transform: translateX(432%) translateY(-30px) rotate(90deg);
+	transform: translateX(442%) translateY(-30px) rotate(90deg);
     z-index: 5000;
 }
 
