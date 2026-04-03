@@ -1,0 +1,135 @@
+/* HEADER ARTICLE CSS */
+
+.header-article {
+    position: fixed;
+    display: flex;
+    left: 0px;
+    top: -100px;
+    right: 0px;
+    width: 100%;
+    font-size: 35px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.137);
+    z-index: 1000;
+	transition: all 0.3s ease;
+}
+
+.header-article.show {
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.92);
+	top: 0;
+}
+
+.header-c1 {
+    display: flex;
+    color: darkred;
+    font-weight: bold;
+    flex: 1;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.header-c2 {
+    display: flex;
+    flex: 2;
+    gap: 4px;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.header-c2-children {
+    background-color: rgba(244, 227, 210, 0.700);
+    padding: 20px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-c3 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16px 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.cat-button {
+	background-color: #f4e3d2bd;
+	border: none;
+	font-size: 36px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+/* NAVIGATION LINES ANIMATIONS */
+
+.line10,
+.line11,
+.line12 {
+    background-color: black;
+    height: 10px;
+    width: 44px;
+    margin: 2px 20px;
+	transition: transform 0.4s ease, opacity 0.3s ease, width 0.3s ease;
+}
+
+.line10.slide {
+	width: 54px;
+	transform: translateY(16px) rotate(45deg);
+}
+
+.line11.slide {
+	opacity: 0;
+}
+
+.line12.slide {
+	width: 54px;
+	transform: translateY(-16px) rotate(-45deg);
+}
+
+
+/* Header Category Dropdown menu*/
+
+.header-category-drop {
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	top: 105px;
+	left: 33%;
+	background-color: #fffdfb;
+	gap: 5px;
+	padding: 16px;
+	transform-origin: top;
+	transform: scale(1, 0);
+	transition: transform 0.3s ease;
+	z-index: 150;
+	border-radius: 5px;
+	padding-bottom: 14px;
+	padding-top: 25px;
+	box-shadow: 0 4px 40px 10px rgba(0, 0, 0, 0.20);
+
+}
+
+.header-category-drop.drop,
+.header-category-drop.art-drop {
+	transform: scale(1.5);
+}
+
+.head-cat-drop-box {
+	display: block;
+	padding: 22px 25px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 28px;
+	color: rgb(77, 27, 2);
+	font-style: italic;
+	border-radius: 4px;
+	border-bottom: 1px solid rgba(128, 70, 3, 0.277);
+}
