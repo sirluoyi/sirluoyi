@@ -51,10 +51,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 78px;
-	left: 8%;
-	width: 90px;
-	height: 70px;
+	top: 85px;
+	left: 9%;
+	width: 80px;
+	height: 60px;
 	background: transparent;
 	border: none;
 	justify-content: space-between;
@@ -94,8 +94,8 @@ body {
 /* Search Icon */
 .search-button {
 	position: absolute;
-	top: 50px;
-	right: 60px;
+	top: 65px;
+	right: 75px;
 	background: transparent;
 	border: none;
 	stroke: #444;
@@ -103,14 +103,12 @@ body {
 	fill: none;
 	cursor: pointer;
 	padding: 20px;
-	border-radius: 60px;
-	box-shadow: 0px 4px 12px 1px rgba(0, 0, 0, 0.139);
 }
 
 .search-button svg {
 	width: 70px;
 	height: 70px;
-	opacity: 0.9;
+	opacity: 0.7;
 }
 
 /* TAGLINES */
