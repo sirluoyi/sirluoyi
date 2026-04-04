@@ -51,10 +51,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 85px;
-	left: 9%;
-	width: 80px;
-	height: 60px;
+	top: 78px;
+	left: 8%;
+	width: 90px;
+	height: 70px;
 	background: transparent;
 	border: none;
 	justify-content: space-between;
@@ -89,26 +89,6 @@ body {
 
 .line32.slide {
 	transform: translateY(-27px) rotate(-45deg);
-}
-
-/* Search Icon */
-.search-button {
-	position: absolute;
-	top: 65px;
-	right: 75px;
-	background: transparent;
-	border: none;
-	stroke: #444;
-	stroke-width: 2;
-	fill: none;
-	cursor: pointer;
-	padding: 20px;
-}
-
-.search-button svg {
-	width: 70px;
-	height: 70px;
-	opacity: 0.7;
 }
 
 /* TAGLINES */
