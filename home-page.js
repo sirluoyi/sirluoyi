@@ -12,9 +12,8 @@ const body = document.body;
 
 const hamButtonHeader = body.querySelector('.header-c3');
 const hamButtonTop = body.querySelector('.hamburger-button-top');
-const catButton = body.querySelector('.cat-button');
 const overlay = body.querySelector('.overlay');
-const headerCatDrop = body.querySelector('.header-category-drop');
+const catButton = body.querySelector('.cat-button');
 
 // Hamburger Button Header 
 hamButtonHeader.addEventListener('click', () => {
@@ -35,6 +34,7 @@ hamButtonTop.addEventListener('click', () => {
 catButton.addEventListener('click', () => {
   headerCatDrop.classList.toggle('drop');
   overlay.classList.toggle('cat-drop');
+  catButton.classList.toggle('drop');
 });
 
 
@@ -154,8 +154,6 @@ body.querySelector('.ticker-text').innerHTML = shlokaHtml;
 
 
 // FEATURED ARTICLES GENERATION
-
-
 let selectedArticlesHtml = ``;
 selectedArticlesArray.forEach(item => {
 
@@ -168,23 +166,15 @@ const partHtml = `<div style="display: flex; font-size: 30px;">
 	<div style="color: grey; font-size: 20px; padding: 5px 5px;">${item.date}</div>
 	</div>
 	</div>`;
-
 	selectedArticlesHtml += partHtml;
-
 });
-
-
 body.querySelector('.js-selected-articles').innerHTML = selectedArticlesHtml;
 
 
-
 // FOOTER GENERATION
-
-
 let footerHtml = ``;
 footerArray.forEach(item => {
    let html = ``;
-
    item.list.forEach(item2 => {
 	  const partHtml = `
 	  <a class="footer-box-list" href="article-webpages/article.html">${item2}</a>
@@ -192,23 +182,18 @@ footerArray.forEach(item => {
 
 	  html += partHtml;
    });
-
-
    footerHtml += `
    <div>
    <div class="footer-box-header">${item.heading}</div>
    <div class="footer-box-list-parent">${html}</div>
-   </div>
-   `
+   </div>`
 });
-
 body.querySelector('.footer-box-parent').innerHTML = footerHtml;
 
 
 
 // HEADER CATEGORY DROPDOWN GENERATION
-
-
+const headerCatDrop = body.querySelector('.header-category-drop');
 let headerDropHtml = ``;
 headerDropArray.forEach(item => {
 
