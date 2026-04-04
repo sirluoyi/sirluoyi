@@ -140,6 +140,7 @@ body {
 	width: 550px;
 	padding: 29px 0px;
 	border: 6px solid rgba(165, 91, 42, 0.422);
+	background-color: rgb(255, 252, 249);
 	transform-origin: right;
 	transform: scale(0, 1);
 	transition: transform 0.22s ease;
