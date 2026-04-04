@@ -1,5 +1,27 @@
 
 export const navbarArray = [
+     {
+        heading: "CONTENT",
+        box: [ 
+            {
+                title: "Explore Articles",
+                icon: `<svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1H1V3H15V1Z" fill="#000000"/>
+                <path d="M1 5H15V7H1V5Z" fill="#000000"/>
+                <path d="M15 9H1V11H15V9Z" fill="#000000"/>
+                <path d="M11 13H1V15H11V13Z" fill="#000000"/>
+                </svg>`,
+                link: "article-webpages/explore-articles-list.html"
+            },
+            {
+                title: "Featured Articles",
+                icon: `<svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.0598e-07 11C3.78403e-07 12.6569 1.34315 14 3 14L13 14C14.6569 14 16 12.6569 16 11V2L4 2L4 11H2L2 4H0L3.0598e-07 11ZM6 4L14 4V6H6V4ZM14 8H6L6 10H14V8Z" fill="#000000"/>
+                </svg>`,
+                link: "article-webpages/explore-articles-list.html"
+            }
+        ]
+    },
     {
         heading: "NAVIGATION",
         box: [ 
@@ -37,29 +59,6 @@ export const navbarArray = [
                 <path class="st0" d="M27,9c1.3,2,2,4.4,2,7c0,7.2-5.8,13-13,13S3,23.2,3,16S8.8,3,16,3c2.6,0,5,0.7,7,2"/>
                 </svg>`,
                 link: "article-webpages/mission.html"
-            }
-        ]
-    },
-    
-    {
-        heading: "CONTENT",
-        box: [ 
-            {
-                title: "Latest Articles",
-                icon: `<svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15 1H1V3H15V1Z" fill="#000000"/>
-                <path d="M1 5H15V7H1V5Z" fill="#000000"/>
-                <path d="M15 9H1V11H15V9Z" fill="#000000"/>
-                <path d="M11 13H1V15H11V13Z" fill="#000000"/>
-                </svg>`,
-                link: "article-webpages/explore-articles-list.html"
-            },
-            {
-                title: "Featured Articles",
-                icon: `<svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.0598e-07 11C3.78403e-07 12.6569 1.34315 14 3 14L13 14C14.6569 14 16 12.6569 16 11V2L4 2L4 11H2L2 4H0L3.0598e-07 11ZM6 4L14 4V6H6V4ZM14 8H6L6 10H14V8Z" fill="#000000"/>
-                </svg>`,
-                link: "article-webpages/explore-articles-list.html"
             }
         ]
     },

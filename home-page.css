@@ -127,15 +127,15 @@ body {
   text-align: center;
   border: 1px solid #d6c5b3;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #5c4a3a;
+  background-color: rgba(177, 101, 19, 0.526);
   outline: none;
   transition: all 0.25s ease;
 }
 
 .search-box input::placeholder {
-  color: #a89b8a;
+  color: #ffffff;
   font-style: italic;
+  transition: all 0.3s ease;
 }
 
 .search-box input:focus {
@@ -144,20 +144,7 @@ body {
   background-color: white;
   width: 620px;
   font-size: 50px;
-}
-
-.input {
-  padding: 10px 14px;
-  font-size: 26px;
-  border: 1px solid #d6c5b3;
-  border-radius: 8px;
-  outline: none;
-  width: 320px;
-  font-family: serif;
-}
-
-input:focus {
-  border-color: #8d1010;
+  color: black;
 }
 
 /* TOPIC-SECTION */
@@ -369,7 +356,7 @@ input:focus {
   display: flex;
 	align-items: center;
 	margin: 25px 40px;
-	margin-top: 80px;
+	margin-top: 60px;
 	gap: 10px;
 	font-size: 35px;
 }
@@ -449,6 +436,41 @@ input:focus {
 	flex: 1;
 	margin-left: 14px;
 	margin-right: 135px;
+}
+
+/* Navigation Search Box */
+.nav-search-box {
+  display: flex;
+  margin-left: 60px;
+}
+
+.nav-search-box input {
+  width: 280px;
+  padding: 15px 18px;
+  margin-top: 15px;
+  font-size: 35px;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  border: 1px solid #d6c5b3;
+  border-radius: 25px;
+  background-color: rgba(177, 101, 19, 0.526);
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.nav-search-box input::placeholder {
+  color: #ffffff;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+
+.nav-search-box input:focus {
+  border-color: #8d1010;
+  box-shadow: 0 0 8px rgba(141, 16, 16, 0.2);
+  background-color: white;
+  width: 440px;
+  font-size: 50px;
+  color: black;
 }
 
 /* Overlay */
