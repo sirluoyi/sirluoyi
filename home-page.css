@@ -10,8 +10,6 @@ body {
 	flex-direction: column;
 	position: relative;
     background-image: url('image/hero-section-back.jpeg');
-	border-top: 15px solid grey;
-	border-right: 15px solid white;
 	z-index: 0;
 
 }
