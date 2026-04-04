@@ -39,7 +39,7 @@ body {
 	white-space: nowrap;
 	text-align: center;
 	font-family: 'times new roman';
-	font-size: 110px;
+	font-size: 100px;
 	color: rgba(141, 16, 16, 0.978);
 	font-weight: 550;
 	margin: 0;
@@ -95,7 +95,7 @@ body {
 .search-button {
 	position: absolute;
 	top: 50px;
-	right: 80px;
+	right: 60px;
 	background: transparent;
 	border: none;
 	stroke: #444;
