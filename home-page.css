@@ -121,17 +121,14 @@ body {
 
 .search-box input {
   width: 280px;
-  padding: 12px 18px;
+  padding: 15px 18px;
   font-size: 35px;
   font-family: "Times New Roman", serif;
   text-align: center;
-  
   border: 1px solid #d6c5b3;
   border-radius: 25px;
-  
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   color: #5c4a3a;
-  
   outline: none;
   transition: all 0.25s ease;
 }
@@ -146,6 +143,7 @@ body {
   box-shadow: 0 0 8px rgba(141, 16, 16, 0.2);
   background-color: white;
   width: 420px;
+  font-size: 40px;
 }
 
 .input {
