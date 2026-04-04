@@ -50,9 +50,17 @@ window.addEventListener('scroll', () => {
 });
 
 // Search Button Hero
-document.querySelector('.search-button').addEventListener('click', () => {
-  body.querySelectorAll('.js-search-button').forEach(item => {
-    item.classList.toggle('appear');
+document.querySelector('.search-button').addEventListener('click', (e) => {
+	e.stopPropagation();
+	body.querySelectorAll('.js-search-button').forEach(item => {
+	item.classList.toggle('appear');
+	
+  });
+});
+
+document.addEventListener('click', (e) => {
+	body.querySelectorAll('.js-search-button').forEach(item => {
+    item.classList.remove('appear');
   });
 });
 
