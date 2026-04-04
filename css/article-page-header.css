@@ -5,7 +5,8 @@
     top: 0;
     height: 10px;
     width: 100%;
-    background-color: rgba(165, 42, 42, 0.708);
+ /* background-color: rgba(165, 42, 42, 0.708); */
+	background: linear-gradient(to right, rgb(255, 242, 57), rgb(255, 47, 0));
     z-index: 1001;
 	transform-origin: left;
 	transform: scaleX(0);
