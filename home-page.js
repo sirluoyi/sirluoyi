@@ -49,6 +49,14 @@ window.addEventListener('scroll', () => {
 	 }
 });
 
+// Search Button Hero
+document.querySelector('.search-button').addEventListener('click', () => {
+  body.querySelectorAll('.js-search-button').forEach(item => {
+    item.classList.toggle('appear');
+  });
+});
+
+
 
 
 // LATEST ARTICLES HTML GENERATIONS
