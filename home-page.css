@@ -52,7 +52,7 @@ body {
 	flex-direction: column;
 	position: absolute;
 	top: 78px;
-	left: 8%;
+	left: 7%;
 	width: 90px;
 	height: 70px;
 	background: transparent;
@@ -145,6 +145,7 @@ body {
   border-color: #8d1010;
   box-shadow: 0 0 8px rgba(141, 16, 16, 0.2);
   background-color: white;
+  width: 420px;
 }
 
 .input {
