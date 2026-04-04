@@ -1,3 +1,14 @@
+/* Progress Bar Animation */
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    height: 10px;
+    width: 20px;
+    background-color: brown;
+    z-index: 1001;
+}
+
 /* HEADER ARTICLE CSS */
 
 .header-article {

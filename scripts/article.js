@@ -116,3 +116,14 @@ console.log(headerDropHtml);
 headerCatDrop.innerHTML = headerDropHtml;
 
 
+// PROGRESS BAR 
+const artProgressBar = document.querySelector('.art-progress-bar');
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.body.scrollHeight - window.innerHeight;
+  const progress = scrollTop/docHeight;
+  artProgressBar.style.transform = `scaleX(${progress})`;
+});
+
+
+

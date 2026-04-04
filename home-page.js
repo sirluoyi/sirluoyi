@@ -69,8 +69,6 @@ document.addEventListener('click', (e) => {
 });
 
 
-
-
 // LATEST ARTICLES HTML GENERATIONS
 
 const featuredArticlesBody = body.querySelector('.js-featured-article-box');

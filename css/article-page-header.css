@@ -1,3 +1,16 @@
+/* Progress Bar Animation */
+
+.art-progress-bar {
+    position: fixed;
+    top: 0;
+    height: 10px;
+    width: 100%;
+    background-color: rgba(165, 42, 42, 0.708);
+    z-index: 1001;
+	transform-origin: left;
+	transform: scaleX(0);
+}
+
 /* PAGE HEADER */
 
 .art-header-article {
@@ -9,7 +22,7 @@
     width: 100%;
     font-size: 35px;
     background-color: white;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.137);
     z-index: 1000;
