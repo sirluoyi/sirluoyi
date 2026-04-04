@@ -112,22 +112,53 @@ body {
 	margin-bottom: 50px;
 }
 
-.explore-box-div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 50px; 
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.explore-box {
-	display: inline-block;
-	background-color: rgba(183, 122, 41, 0.568);
-	padding: 15px 40px;
-	border-radius: 6px;
-	color: white;
-	font-size: 35px;
-	font-family: 'Times New Roman', serif;
-	text-decoration: none;
+.search-box input {
+  width: 280px;
+  padding: 12px 18px;
+  font-size: 35px;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  
+  border: 1px solid #d6c5b3;
+  border-radius: 25px;
+  
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #5c4a3a;
+  
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.search-box input::placeholder {
+  color: #a89b8a;
+  font-style: italic;
+}
+
+.search-box input:focus {
+  border-color: #8d1010;
+  box-shadow: 0 0 8px rgba(141, 16, 16, 0.2);
+  background-color: white;
+}
+
+.input {
+  padding: 10px 14px;
+  font-size: 26px;
+  border: 1px solid #d6c5b3;
+  border-radius: 8px;
+  outline: none;
+  width: 320px;
+  font-family: serif;
+}
+
+input:focus {
+  border-color: #8d1010;
 }
 
 /* TOPIC-SECTION */
